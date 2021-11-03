@@ -3,6 +3,6 @@ class Main {
   public static void main(String[] args) {
     System.out.println("Hello world!");
     System.out.println("Enter a name");
-    String name= new
+    System.out.print("Enter");
   }
 }
