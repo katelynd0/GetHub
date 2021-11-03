@@ -1,8 +1,15 @@
 import java.util.Scanner;
 class Main {
   public static void main(String[] args) {
-    System.out.println("Hello world!");
+    Scanner scan= new Scanner(System.in);
+    String normal="Hello world!";
+    System.out.println(normal);
     System.out.println("Enter a name");
-    System.out.print("Enter");
+    String name= scan.nextLine();
+
+    String lower= name.toLowerCase();
+    System.out.print(lower+" "+normal);
+
+
   }
 }
